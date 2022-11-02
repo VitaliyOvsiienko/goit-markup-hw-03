@@ -9,10 +9,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body class="body">
+
+
+    
     
     <!--Header-->
     <header class="header">
@@ -22,12 +27,14 @@
       
             
                
-                <nav class="conteiner main-nav">
-                
-                    <a class="header-logo link" href="/index.html"><span class="span">Web</span>Studio</a>
-                
-                    <!--Navigation-->
-                
+    <div class="conteiner">
+        
+        <nav class="main-nav">
+                    
+            <a class="header-logo link" href="/index.html"><span class="span">Web</span>Studio</a>
+                    
+                        <!--Navigation-->
+                    
                     <ul class="nav-list">
                         <li>
                             <a class="link current list-item" href="#">Студія</a>
@@ -39,18 +46,17 @@
                             <a class="link list-item" href="#">Контакти</a>
                         </li>
                     </ul>
-              
-                
-                <!--Contacts-->
-                
-                
-                
-                <ul class="contacts-list">
-                    <li><a class="connect link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="connect link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-                </ul>
-
-                </nav>
+                   
+                    
+                        <!--Contacts-->
+                    
+                        <ul class="contacts-list">
+                            <li><a class="connect link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                            <li><a class="connect link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                        </ul>
+                    </nav>
+                   
+                </div>
               
             
  
@@ -62,45 +68,52 @@
     <main>
         
         <!--Srction Hero-->
-        <section class="hero">
-                
-            <h1 class="hero-title">Ефективні рішення для <br>вашого бізнесу</h1>
-
-            <button class="hero-btn" type="button">Замовити послугу</button>
-
-        </section>
+        <div class="conteiner">
+            <section class="hero">
+            
+                <h1 class="hero-title">Ефективні рішення для <br>вашого бізнесу</h1>
+            
+                <button class="hero-btn" type="button">Замовити послугу</button>
+            
+            </section>
             
             <!--Sections Features-->
             <h2 style="display:none;">Організація роботи</h2>
-        
-        <section class="features">
-
-            <h2 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h2>
-            <p class="features-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-
-            <h2 class="features-title">ПУНКТУАЛЬНІСТЬ</h2>
-            <p class="features-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-
-            <h2 class="features-title">ПЛАНУВАННЯ</h2>
-            <p class="features-text">Так само консультація з широким активом значною мірою зумовлює.</p>
-
-            <h2 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
-            <p class="features-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-        
-        </section>
+            
+           <div class="conteiner">
+            <section class="features">
+            
+                <h2 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h2>
+                <p class="features-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+            
+                <h2 class="features-title">ПУНКТУАЛЬНІСТЬ</h2>
+                <p class="features-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+            
+                <h2 class="features-title">ПЛАНУВАННЯ</h2>
+                <p class="features-text">Так само консультація з широким активом значною мірою зумовлює.</p>
+            
+                <h2 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+                <p class="features-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+            
+            </section>
+           </div>
+        </div>
         
         <!--Sections What are we doing-->
-        <section class="work">
-
-            <h2 class="work-title">Чим ми займаємося</h2>
-            
-            <ul>
-                <li class="work-img"><img src="./images/our-work/img-1.jpg" alt="руки на клавіатурі" width="370"></li>
-                <li class="work-img"><img src="./images/our-work/img-2.jpg" alt="телефон та ноутбук" width="370"></li>
-                <li class="work-img"><img src="./images/our-work/img-3.jpg" alt="планшет в руках" width="370"></li>
-            </ul>
         
-        </section>
+        <div>
+            <section class="work">
+            
+                <h2 class="work-title">Чим ми займаємося</h2>
+            
+                <ul>
+                    <li class="work-img"><img src="./images/our-work/img-1.jpg" alt="руки на клавіатурі" width="370"></li>
+                    <li class="work-img"><img src="./images/our-work/img-2.jpg" alt="телефон та ноутбук" width="370"></li>
+                    <li class="work-img"><img src="./images/our-work/img-3.jpg" alt="планшет в руках" width="370"></li>
+                </ul>
+            
+            </section>
+        </div>
             
             
         <!--Sections our team-->
