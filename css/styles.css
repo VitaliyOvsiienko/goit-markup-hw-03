@@ -25,6 +25,7 @@
 .link {
     
     text-decoration: none;
+    margin-left: 50px;
 
 }
 
@@ -41,8 +42,14 @@
     
     background-color: var(--primery-bg-color); 
 
+
 }
 
+.conteiner {
+    width: 1200px;
+    align-items: center;
+    display: flex;
+}
 
 
 .header-logo{
@@ -55,12 +62,16 @@
     line-height: 1.2;
     letter-spacing: var(--primery-letter-spacing);
 
+
 }
 
 
 
                             
                             /*---Navigation---*/
+
+              
+                            
 .nav-list{
     
     font-weight: 500;
@@ -68,8 +79,15 @@
     line-height: 1.15;
     letter-spacing: var(--secondary-letter-spacing);
     list-style: none;
+    display: flex;
+    margin-left: 93px;
+    background-color: tomato;
+
 
 }
+
+
+
       
 .nav-list .link {
     
@@ -90,20 +108,26 @@
 }
 
 
+
                             /*---Contacts---*/
+
 .contacts-list{
-    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
     letter-spacing: var(--secondary-letter-spacing);
     list-style: none;
 
+    display: flex;
+    margin-left: 344px;
+
+
 }
 
    .contacts-list .connect{
 
     color: var(--secondary-text-color);
+    margin-left: 50px;
 
 }
 
