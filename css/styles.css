@@ -122,7 +122,6 @@ ul {
  
     display: flex;
     gap: 50px;
-    margin-left: auto;
 
    
 
@@ -391,6 +390,7 @@ ul {
     padding-bottom: 60px;
 
 
+
 }
 
 
@@ -404,8 +404,11 @@ ul {
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: var(--primery-letter-spacing);
-
+    display: block;
     margin-left: 0;
+    margin-bottom: 20px;
+
+    
    
 
 }
@@ -424,6 +427,7 @@ ul {
     font-style: normal;
     
     margin-left: 0;
+
    
  
 
@@ -440,6 +444,7 @@ ul {
     font-style: normal;
 
     margin-left: 0;
+
 
 
 
@@ -461,8 +466,11 @@ ul {
                             /*---Portfolio---*/
 
 .button {
-    
-    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding-top: 94px;
+    margin-bottom: 50px;
 
 }
 
@@ -488,17 +496,55 @@ ul {
 
 }
 
+.info-wrap {
+    padding-bottom: 94px;
 
-.info {
-    
-    list-style: none;
-   
+
+
+
+
+        
 
 }
 
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    
+
+
+
+  
+}
+
+
+
+.info-card {
+
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+
+    width: calc((100% - 60px) / 3);
+     
+}
+
+.info-img {
+    display: block;
+
+   
+}
 .info-link {
 
     text-decoration: none;
+
+  
+    
+ 
+
+   
 
 }
 
@@ -510,6 +556,9 @@ ul {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+
+    margin-top: 20px;
+    margin-bottom: 4px;
         
 }
 
@@ -520,5 +569,10 @@ ul {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: var(--primery-letter-spacing);
+
+    margin-bottom: 20px;
     
 }
+
+
+       
