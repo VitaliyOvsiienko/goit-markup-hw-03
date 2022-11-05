@@ -91,6 +91,8 @@ ul {
     padding-top: 32px;
     padding-bottom: 32px;
 
+    border-bottom: 1px solid #ECECEC;
+
 
 }
 
@@ -331,9 +333,11 @@ ul {
 
 
 .team-item {
+    
     display: flex;
     gap: 30px;
     justify-content: space-between;
+    margin-top: 94px;
     margin-bottom: 30px;
 
 }
@@ -345,11 +349,10 @@ ul {
     line-height: 1.15;
     letter-spacing: var(--primery-letter-spacing);
     text-align: center;
+    padding-top: 94px;
     margin-bottom: 50px;
 
-  
-
-}
+  }
 
 .team-name{
     
@@ -380,16 +383,12 @@ ul {
                             /*---Footer---*/
 
 
-                            
-
 .footer {
     
     background-color: var(--secondary-bg-color);
 
     padding-top: 60px;
     padding-bottom: 60px;
-
-
 
 }
 
@@ -408,9 +407,6 @@ ul {
     margin-left: 0;
     margin-bottom: 20px;
 
-    
-   
-
 }
 
 
@@ -428,8 +424,8 @@ ul {
     
     margin-left: 0;
 
-   
- 
+    display: block;
+    margin-bottom: 9px;
 
 }
 
@@ -445,13 +441,8 @@ ul {
 
     margin-left: 0;
 
-
-
-
-
-    
-
-  
+    display: block;
+    margin-bottom: 9px;
 
 }
 
@@ -499,12 +490,6 @@ ul {
 .info-wrap {
     padding-bottom: 94px;
 
-
-
-
-
-        
-
 }
 
 .info {
@@ -512,11 +497,6 @@ ul {
     flex-wrap: wrap;
     gap: 30px;
 
-    
-
-
-
-  
 }
 
 
