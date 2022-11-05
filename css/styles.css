@@ -1,16 +1,19 @@
 
                             /*---Variables---*/
+
 :root{
-    --primery-text-color: #212121;
-    --secondary-text-color: #757575;
-    --primery-bg-color: #FFFFFF;
-    --secondary-bg-color: #2F303A;
-    --white-bg-color: #F5F5F5;
-    --team-bg-color: #F5F4FA;
-    --primery-accent: #2196F3;
-    --header-logo: #000000;
-    --primery-letter-spacing: 0.03em;
-    --secondary-letter-spacing: 0.02em;
+    
+        --primery-text-color: #212121;
+        --secondary-text-color: #757575;
+        --primery-bg-color: #FFFFFF;
+        --secondary-bg-color: #2F303A;
+        --white-bg-color: #F5F5F5;
+        --team-bg-color: #F5F4FA;
+        --primery-accent: #2196F3;
+        --header-logo: #000000;
+        --primery-letter-spacing: 0.03em;
+        --secondary-letter-spacing: 0.02em;
+
 }
  
 h1,
@@ -20,11 +23,14 @@ h4,
 h5,
 h6,
 p {
+    
     margin: 0;
 
 }
 
+
 ul {
+    
     list-style: none;
     margin: 0;
     padding: 0;
@@ -33,14 +39,17 @@ ul {
 
                             
                             /*---Body---*/
-.body{
+                            
+    .body{
     
     font-family: 'Roboto', sans-serif;
+    
     color: var(--primery-text-color);
 
 }
 
-.conteiner {
+.container {
+    
     width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
@@ -52,6 +61,7 @@ ul {
 .link {
     
     text-decoration: none;
+    
     margin-left: 50px;
 
 }
@@ -65,9 +75,21 @@ ul {
 
                             
                             /*---Header---*/
+
+.header-container {
+    display: flex;
+    align-items: center;
+    padding-bottom: 32px;
+
+
+}
+
 .header {
     
-    background-color: var(--primery-bg-color); 
+    background-color: var(--primery-bg-color);
+
+    padding-top: 32px;
+    padding-bottom: 32px;
 
 
 }
@@ -81,38 +103,33 @@ ul {
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: var(--primery-letter-spacing);
+    
+    margin-right: 93px;
+    margin-left: 0;
+    
 
 
 }
 
-
-
-                            
                             /*---Navigation---*/
 
-.main-nav {
-display: flex;
-margin-bottom: 24px;
-              
-}
-                            
 .nav-list{
     
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
     letter-spacing: var(--secondary-letter-spacing);
-    list-style: none;
+ 
     display: flex;
-    align-items: center;
-    
+    gap: 50px;
+    margin-left: auto;
+
+   
 
 
 }
 
 
-
-      
 .nav-list .link {
     
     color: var(--primery-text-color);
@@ -121,6 +138,7 @@ margin-bottom: 24px;
 
 
 .nav-list .link.current {
+    
     color: var(--primery-accent);
 }
 
@@ -136,24 +154,22 @@ margin-bottom: 24px;
                             /*---Contacts---*/
 
 .contacts-list{
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
     letter-spacing: var(--secondary-letter-spacing);
-    list-style: none;
-
+  
     display: flex;
+    gap: 50px;
     margin-left: auto;
-
-    align-items: center;
-
 
 }
 
-   .contacts-list .connect{
+   
+.contacts-list .connect{
 
     color: var(--secondary-text-color);
-    margin-left: 50px;
 
 }
 
@@ -165,13 +181,16 @@ margin-bottom: 24px;
 }
 
 
-                            /*---HERO---*/
+                            /*---Hero---*/
 
 .hero {
-    padding-top: 200px;
-    padding-bottom: 200px;
+   
     background-color: var(--secondary-bg-color);
-    margin-bottom: 94px;
+
+    padding-top: 200px;
+    padding-bottom: 210px;
+   
+  
 }
 
 .hero-title {
@@ -185,15 +204,17 @@ margin-bottom: 24px;
     
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 94px;
+    
+    
+    margin-bottom: 40px;
 
 
 }
 
                             
-                            /*---Button---*/
+                            /*---Hero-button---*/
+                            
 .hero-btn {
-    
     
     color: var(--primery-bg-color);
     background-color: var(--primery-accent);
@@ -202,26 +223,23 @@ margin-bottom: 24px;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
-    
     cursor: pointer;
 
     display: block;
     margin: auto;
 
-    
-
-
 }
  
 .hero-btn:hover,
 .hero-btn:focus {
-    
+
     color: inherit;
 
 }
 
 
                             /*---Features---*/
+                            
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -239,13 +257,12 @@ margin-bottom: 24px;
 .features {
    
     display: flex;
-
-    margin-bottom: 188px;
+    justify-content: space-between;
+    column-gap: 70px;
+    padding-bottom: 94px;
+    padding-top: 94px;
 
 }
-
-
-
 
 .features-title{
     
@@ -253,17 +270,11 @@ margin-bottom: 24px;
     font-size: 14px;
     line-height: 1.15;
     letter-spacing: var(--primery-letter-spacing);
+    
     text-transform: uppercase;
-    width: 270px;
-    height: 16px;
     margin-bottom: 10px;
-    margin-left: 30px;
-   
- 
-
- 
-
-   }
+    
+}
 
 .features-text{
     
@@ -273,44 +284,58 @@ margin-bottom: 24px;
     line-height: 1.4;
     letter-spacing: var(--primery-letter-spacing);
 
-    width: 270px;
-    height: 72px;
 }
 
                             
                             /*---Work---*/
+.work {
+    padding-bottom: 94px;
+}
 
-
-.work-title {
+.work-title{
     
     font-weight: 700;
     font-size: 36px;
     line-height: 1.15;
     letter-spacing: var(--primery-letter-spacing);
     text-align: center;
+    margin-bottom: 50px;
+
 }
 
-.work-item{
- 
-}
-
-.work-img {
-    
-    list-style-type: none;
-
+.work-item {
+    display: flex;
+    gap: 30px;
+   
 }
 
 
                             /*---Team---*/
+
 .team {
     
     background-color: var(--team-bg-color);
 
+    padding-bottom: 94px;
+
 }
 
-.team-img {
+.team-card {
+    background-color: var(--primery-bg-color);
+ 
+}
+
+.team-img{
     
-    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+
+.team-item {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-bottom: 30px;
 
 }
 
@@ -321,6 +346,10 @@ margin-bottom: 24px;
     line-height: 1.15;
     letter-spacing: var(--primery-letter-spacing);
     text-align: center;
+    margin-bottom: 50px;
+
+  
+
 }
 
 .team-name{
@@ -330,6 +359,8 @@ margin-bottom: 24px;
     line-height: 1.18;
     letter-spacing: var(--primery-letter-spacing);
     text-align: center;
+    
+    margin-bottom: 10px;
 
 }
 
@@ -339,20 +370,30 @@ margin-bottom: 24px;
     
     font-size: 16px;
     line-height: 1.18;
-    
     letter-spacing: var(--primery-letter-spacing);
     text-align: center;
+
+    padding-bottom: 30px;
 
 }
 
 
                             /*---Footer---*/
 
+
+                            
+
 .footer {
     
     background-color: var(--secondary-bg-color);
 
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+
 }
+
+
 
 .footer-logo{
     
@@ -363,6 +404,9 @@ margin-bottom: 24px;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: var(--primery-letter-spacing);
+
+    margin-left: 0;
+   
 
 }
 
@@ -378,19 +422,14 @@ margin-bottom: 24px;
     line-height: 1.7;
     letter-spacing: var(--primery-letter-spacing);
     font-style: normal;
- 
-
-}
-
-.contacts-footer {
     
-    list-style: none;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: var(--primery-letter-spacing);
+    margin-left: 0;
+   
  
 
 }
+
+
 
 
 
@@ -399,6 +438,14 @@ margin-bottom: 24px;
     color: rgba(255, 255, 255, 0.6);
 
     font-style: normal;
+
+    margin-left: 0;
+
+
+
+
+    
+
   
 
 }
