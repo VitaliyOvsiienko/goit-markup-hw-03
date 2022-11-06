@@ -412,11 +412,8 @@ img {
     
     background-color: var(--secondary-bg-color);
 
-
-   
-
-
 }
+
 
 
 
@@ -431,6 +428,8 @@ img {
     letter-spacing: var(--primery-letter-spacing);
     margin-left: auto;
     display: block;
+    padding-top: 60px;
+   
 
 
 }
@@ -448,7 +447,7 @@ img {
     letter-spacing: var(--primery-letter-spacing);
     font-style: normal;
     margin-left: auto;
-    display: block;
+   
   
 
 }
@@ -465,7 +464,7 @@ img {
 
     margin-left: auto;
     
-    display: block;
+
  
 
 }
